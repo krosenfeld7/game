@@ -1,0 +1,55 @@
+# Puxxle Theme Configuration
+# All colors are in hex format (#RRGGBB)
+#
+# To create different themed profiles (e.g. Halloween theme with black and orange),
+# simply change the hex color values below and reload the game.
+
+# Screen background color (entire page background)
+screenBackgroundColor: "#F5F5DC"  # Beige
+
+# Main background color (behind the game)
+backgroundColor: "#F5F5DC"  # Beige
+
+# Board colors
+# Green theme example (original blue theme commented below):
+boardDiagonalsColor: "#90EE90"  # Light green for diagonal (revealed) cells
+# boardDiagonalsColor: "#b3d9ff"  # Light blue (original)
+
+boardWhiteCellColor: "#FFFFFF"   # White for regular cells
+
+# Text colors
+boardLetterColor: "#000000"  # Black text for letters in board cells
+
+# Green theme example (original blue theme commented below):
+titleColor: "#2E8B57"        # Sea green for title "PUXXLE"
+# titleColor: "#A8C8DC"        # Light blue (original)
+
+attemptCounterColor: "#2E8B57"  # Sea green for attempt counter circle and text
+# attemptCounterColor: "#A8C8DC"  # Light blue (original)
+
+# Unused letter tiles
+unusedTileBackgroundColor: "#E8E8E8"  # Very light gray background for draggable tiles (lighter than before)
+unusedTileTextColor: "#000000"        # Black text on light gray tiles
+
+# Submit button (uses same colors as unused tiles)
+submitButtonBackgroundColor: "#888888"  # Gray background
+submitButtonTextColor: "#FFFFFF"        # White text
+
+# Date picker
+datePickerTodayButtonColor: "#2E8B57"  # Sea green for "Today" button background
+datePickerTodayButtonTextColor: "#FFFFFF"  # White text on Today button
+
+# Help button (? button)
+helpButtonColor: "#2E8B57"  # Sea green for help button
+helpButtonTextColor: "#FFFFFF"  # White text on help button
+
+# Help screen overlay
+helpScreenBackgroundColor: "#F5F5DC"  # Beige background
+helpScreenTextColor: "#000000"  # Black text
+helpScreenTitleColor: "#2E8B57"  # Sea green for title
+
+# Puzzle solved screen (no longer have game over, only puzzle solved)
+puzzleSolvedTitleColor: "#2E8B57"  # Sea green for "PUZZLE SOLVED" title
+puzzleSolvedMessageColor: "#000000"  # Black for result message text (visible on beige background)
+puzzleSolvedButtonColor: "#2E8B57"  # Sea green for button backgrounds
+puzzleSolvedButtonTextColor: "#FFFFFF"  # White text on buttons
