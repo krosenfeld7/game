@@ -1,0 +1,23 @@
+dataUrl: "https://krosenfeld7.github.io/game-data/data"
+gridsSubUrl: "grids"
+gridsFilePrefix: "grid_"
+patternsSubUrl: "patterns"
+patternsFilePrefix: "pattern_"
+settingsSubUrl: "settings"
+settingsFilename: "settings.yml"
+fetchFromAPI: true
+# These are fallbacks in case they cannot be retrieved from server
+difficulties:
+  easy:
+    maxAttempts: 6
+    maxHints: 3
+  medium:
+    maxAttempts: 5
+    maxHints: 2
+  difficult:
+    maxAttempts: 4
+    maxHints: 1
+  diabolical:
+    maxAttempts: 3
+    maxHints: 0
+defaultDifficulty: "easy"
